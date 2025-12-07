@@ -1,0 +1,86 @@
+YOUTUBE VIDEO DESCRIPTION TEMPLATE
+Copy and customize this for your video description
+
+═══════════════════════════════════════════════════════════════════════════════════
+
+📊 Personal Finance Tracker in Python — Open Source Desktop App Tutorial
+
+In this video, I show you how to build and run a complete Personal Finance Tracker app in Python! Perfect for tracking expenses, income, and visualizing your finances with charts.
+
+🔗 GitHub Repository:
+https://github.com/YOUR_USERNAME/finance-tracker
+
+📁 Project Structure:
+▸ Dashboard — Summary cards with income, expenses, and balance
+▸ Transactions — List, filter, and delete transactions
+▸ Add Transaction — Form to log new income and expenses
+▸ Analytics — Three chart types: Income vs Expense, Category Breakdown, Monthly Trend
+
+🛠️ Built With:
+▸ Python 3.8+
+▸ Tkinter (GUI framework)
+▸ SQLite (local database)
+▸ Matplotlib (charts)
+▸ tkcalendar (date picker)
+
+⚡ Quick Start:
+git clone https://github.com/YOUR_USERNAME/finance-tracker.git
+cd finance-tracker
+python -m venv .venv
+# Windows:
+.\.venv\Scripts\Activate.ps1
+# macOS/Linux:
+source .venv/bin/activate
+pip install -r requirements.txt
+python src/main.py
+
+✨ Features:
+✓ Add, view, and delete transactions
+✓ Filter by income/expense type
+✓ Professional UI with Indian Rupee currency
+✓ Local SQLite database — your data stays private
+✓ Matplotlib charts for financial insights
+✓ Fully open source — customize and extend as you like
+
+📚 What You'll Learn:
+▸ How to build a Python GUI with Tkinter
+▸ SQLite database design and CRUD operations
+▸ Matplotlib chart integration
+▸ Professional UI styling and color schemes
+▸ Object-oriented Python programming
+
+💬 Questions?
+Drop a comment below! I'd love to hear:
+▸ What feature would you add to this app?
+▸ What other Python projects would you like to see?
+▸ Any questions about the code?
+
+🎯 Timestamps:
+0:00 — Intro & Hook
+0:45 — About Me & Channel
+1:15 — Project Overview
+3:00 — Clone from GitHub
+4:00 — Create Virtual Environment
+5:00 — Install Dependencies
+6:00 — Launch the App
+6:30 — Dashboard Demo
+8:00 — Add Transaction Demo
+10:00 — Dashboard with Data
+11:15 — Transactions Tab & Filtering
+12:30 — Analytics & Charts
+14:30 — Code Walkthrough
+15:15 — Key Features Summary
+15:45 — Outro & Call to Action
+
+📱 Follow & Subscribe:
+► Subscribe to the channel for more Python tutorials!
+► Like this video if you found it helpful!
+► Follow me on GitHub for more open-source projects!
+
+GitHub: https://github.com/YOUR_USERNAME
+Twitter/X: @YOUR_HANDLE (optional)
+Website: YOUR_WEBSITE (optional)
+
+#Python #Finance #OpenSource #Tutorial #Tkinter #Desktop #Application #GitHub #CodeWithPrem
+
+═══════════════════════════════════════════════════════════════════════════════════

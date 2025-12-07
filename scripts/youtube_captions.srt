@@ -1,0 +1,180 @@
+COMPLETE SRT CAPTIONS FOR YOUTUBE VIDEO
+Personal Finance Tracker Tutorial
+Total video: ~17 minutes
+
+1
+00:00:00,000 --> 00:00:15,000
+Hey everyone! Welcome back to the channel!
+I'm [Your Name], and today I'm going to show you something really cool.
+
+2
+00:00:15,000 --> 00:00:30,000
+I built a Personal Finance Tracker app in Python,
+and it's completely open source on GitHub!
+
+3
+00:00:30,000 --> 00:00:45,000
+If you've ever wanted to track expenses, visualize spending in charts,
+and manage finances all in one desktop app, this video is for you.
+
+4
+00:00:45,000 --> 00:01:00,000
+I'm a developer passionate about building practical desktop applications
+and teaching others how to code.
+
+5
+00:01:00,000 --> 00:01:15,000
+On this channel, I share Python tutorials, full-stack projects, and open-source code.
+If you like learning by building real projects, subscribe!
+
+6
+00:01:15,000 --> 00:02:00,000
+This is the Personal Finance Tracker.
+Built with Python 3.8, Tkinter, SQLite, Matplotlib, and tkcalendar.
+
+7
+00:02:00,000 --> 00:02:30,000
+The app has four main tabs:
+Dashboard, Transactions, Add Transaction, and Analytics.
+
+8
+00:02:30,000 --> 00:03:00,000
+Dashboard: Shows total income, expenses, and net balance.
+Also displays recent transactions.
+
+9
+00:03:00,000 --> 00:03:30,000
+Transactions: Lists all transactions.
+Filter by income or expense, and delete records if needed.
+
+10
+00:03:30,000 --> 00:04:00,000
+Add Transaction: Enter new transactions with date, type, category, amount, and description.
+
+11
+00:04:00,000 --> 00:04:30,000
+Analytics: Income vs Expense, Category Breakdown, and Monthly Trend charts.
+
+12
+00:04:30,000 --> 00:05:00,000
+Everything is stored locally in SQLite.
+Your data stays on your computer. No cloud, just privacy.
+
+13
+00:05:00,000 --> 00:05:30,000
+Step one: Clone the repository from GitHub.
+git clone https://github.com/YOUR_USERNAME/finance-tracker.git
+
+14
+00:05:30,000 --> 00:06:00,000
+If you don't have Git installed, head to git-scm.com and install it.
+
+15
+00:06:00,000 --> 00:06:30,000
+Navigate into the project folder:
+cd finance-tracker
+
+16
+00:06:30,000 --> 00:07:00,000
+Next step: Create a Python virtual environment.
+python -m venv .venv
+
+17
+00:07:00,000 --> 00:07:30,000
+This creates a folder called .venv.
+On Windows, activate it with: .\.venv\Scripts\Activate.ps1
+
+18
+00:07:30,000 --> 00:08:00,000
+With the virtual environment active, run:
+pip install -r requirements.txt
+
+19
+00:08:00,000 --> 00:08:30,000
+This installs matplotlib, tkcalendar, Pillow, and other dependencies.
+
+20
+00:08:30,000 --> 00:09:00,000
+To run the app:
+python src/main.py
+
+21
+00:09:00,000 --> 00:09:30,000
+The Personal Finance Tracker window opens!
+Clean, professional, with blue and white theme.
+
+22
+00:09:30,000 --> 00:10:00,000
+Here's the Dashboard with three summary cards:
+Total Income, Total Expenses, Net Balance.
+
+23
+00:10:00,000 --> 00:10:30,000
+Date range buttons: This Month, This Year, Last 30 Days.
+These let you filter your summary instantly.
+
+24
+00:10:30,000 --> 00:11:00,000
+Let's add some transactions. Switch to the Add Transaction tab.
+
+25
+00:11:00,000 --> 00:11:30,000
+Here's the form. Pick a date, select Expense or Income,
+choose a category, enter amount, add description.
+
+26
+00:11:30,000 --> 00:12:00,000
+Example: Groceries expense for 1,250 rupees.
+Click Add Transaction.
+
+27
+00:12:00,000 --> 00:12:30,000
+Success! Now add an income entry: Salary, 50,000 rupees.
+
+28
+00:12:30,000 --> 00:13:00,000
+Switch back to Dashboard.
+Summary cards now show: Income 50,000, Expenses 1,250, Balance 48,750.
+
+29
+00:13:00,000 --> 00:13:30,000
+Transactions tab shows all entries.
+Filter by Expense, Income, or All.
+
+30
+00:13:30,000 --> 00:14:00,000
+Delete Selected removes records. Confirmation dialog appears.
+
+31
+00:14:00,000 --> 00:14:30,000
+Analytics tab: Three chart types.
+Income vs Expense shows totals in bars.
+
+32
+00:14:30,000 --> 00:15:00,000
+Category Breakdown shows spending by category.
+
+33
+00:15:00,000 --> 00:15:30,000
+Monthly Trend shows income and expense over 12 months as line graph.
+
+34
+00:15:30,000 --> 00:16:00,000
+Code structure: src/main.py handles GUI, src/database.py handles database operations.
+
+35
+00:16:00,000 --> 00:16:30,000
+Key features: Add/delete transactions, filter, charts, local SQLite database, professional UI, Indian Rupee currency.
+
+36
+00:16:30,000 --> 00:17:00,000
+GitHub repository is in the description. Clone, run, customize, contribute!
+
+37
+00:17:00,000 --> 00:17:15,000
+Like this video, subscribe for more Python tutorials,
+and comment what feature you'd add next!
+
+38
+00:17:15,000 --> 00:17:30,000
+Thanks for watching! I'm [Your Name]. See you in the next one. Peace!

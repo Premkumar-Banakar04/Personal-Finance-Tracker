@@ -1,0 +1,31 @@
+1
+00:00:00,000 --> 00:00:20,000
+Hi — I’m [Your Name]. This is a walkthrough of the Personal Finance Tracker built in Python with Tkinter and SQLite.
+
+2
+00:00:20,000 --> 00:01:10,000
+The app stores transactions in SQLite and has four main tabs: Dashboard, Transactions, Add Transaction, and Analytics.
+
+3
+00:01:10,000 --> 00:02:30,000
+Now I’ll add a sample expense. Select a date, pick Type as Expense, choose a category, enter the amount, add a short description, and click Add Transaction.
+
+4
+00:02:30,000 --> 00:03:20,000
+Switch to the Dashboard to view Total Income, Total Expenses, and Net Balance. Recent transactions appear below.
+
+5
+00:03:20,000 --> 00:04:20,000
+In Transactions, you can filter by type and delete records. Select a row and click Delete Selected to remove it.
+
+6
+00:04:20,000 --> 00:05:20,000
+Open Analytics to view Income vs Expense, Category Breakdown, and Monthly Trend charts. Axis labels and values use Indian Rupees.
+
+7
+00:05:20,000 --> 00:05:50,000
+Quick code pointers: `src/database.py` has the schema and CRUD operations; `src/main.py` contains the UI and chart code.
+
+8
+00:05:50,000 --> 00:06:10,000
+Thanks for watching. I can also generate captions, a slide deck or help with recording/editing if you'd like.

@@ -1,0 +1,4 @@
+sqlite3
+matplotlib==3.8.2
+tkcalendar==1.6.1
+pillow==10.1.0
